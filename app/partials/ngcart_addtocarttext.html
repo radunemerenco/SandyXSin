@@ -1,0 +1,22 @@
+<div ng-hide="attrs.id">
+    <a class="" ng-disabled="true" ng-transclude></a>
+
+</div>
+<div ng-show="attrs.id">
+    <div ng-hide="inCart()">
+        <a class="portfolio-hover" ng-click="ngCart.addItem(id, name, price, q, data)" style="cursor: pointer;">
+            <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+                <span>Add to cart</span>
+            </div>
+        </a>
+    </div>
+    <div  ng-show="inCart()">
+        <div class="portfolio-hover" ng-click="ngCart.removeItemById(id)" style="cursor: pointer;">
+            <div class="portfolio-hover-content">
+                <i class="fa fa-minus fa-3x"></i>
+                <span>Remove from cart</span>
+            </div>
+        </div>
+    </div>
+</div>

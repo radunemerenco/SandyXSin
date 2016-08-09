@@ -1,0 +1,15 @@
+<div class="col-md-4 col-sm-6 portfolio-item" ng-show="item">
+    <ngcart-addtocart-text class="portfolio-hover" id="{{ item.id }}" name="{{ item.name }}" price="{{ item.price }}" data="item">
+    </ngcart-addtocart-text>
+    <div class="shadow1 border-radius-5">
+        <a href="#portfolio-modal" class="portfolio-link" data-toggle="modal" ng-click="openModal()">
+            <div class="img-responsive">
+              <img ng-src="{{ item.image }}" alt="">
+            </div>
+        </a>
+        <div class="portfolio-caption">
+            <h4>{{ item.name }}</h4>
+            <h4>Price: ${{ item.price }}</h4>
+        </div>
+    </div>
+</div>

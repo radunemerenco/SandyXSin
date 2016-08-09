@@ -1,0 +1,371 @@
+<div class="index">
+    <!-- Header -->
+    <header class="fixed-bg portfolio">
+        <div class="container">
+            <div class="intro-text col-md-12">
+                <div class="intro-lead-in">Welcome To My Page!</div>
+                <div class="intro-heading">It's Nice To Meet You</div>
+                <a href="#about-me" class="page-scroll btn btn-xl">Tell Me More</a>
+            </div>
+        </div>
+    </header>
+    <!-- Services Section -->
+    <section id="about-me" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About Me</h2>
+                    <h3 class="section-subheading">My slogan in short (to be replaced).</h3>
+                </div>
+            </div>
+            <div class="row text-center border-hearts col-md-12">
+              <div class="about-me-text">
+                  I like smart people. Nothing turns me on more than inteligence and good sence of humor. The power of words is enormous too.It may build such an imtimate connection, such an exciting suspence and aticipation of something wonderfully lustful to happen, i do enjoy dirtytalk, so if you have anything on your mind, please share and i would love to respond. I do admire a man speaking a foreign language, english, italian or french, this is so sexy!I love to watch a man driving his car, I enjoy the hands' motions, probably that gives me some food for thought and touches my imagination;)I like handy and hardworking men, and it is such a pleasure to see a man fixing things about the house, repairing a car or a computer or doing any kind of physical job:)Any kind of uniform, a suit and and just a towel wrapped around hips are among my favourite outfits for guys:)(I'm getting excited just writing this text!thought i gotta let you know lol) I love to dress up, i enjoy wearing sexy lingerie, stockings, shoes, i have a wardrobe full of clothes, so just ask me if you want to see me wearing something special. And of course i do enjoy to take it all off discovering every inch of my body, moving sensually and mesmerising, i do love to dance and tease. Good music is important too,I'm always searching for nice tunes, and by the way I'm open for song requests:)SO feel free to ask!
+              </div>
+                <!-- <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">E-Commerce</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Responsive Design</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Web Security</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- My Photos Grid Section -->
+    <section id="my-photos" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">My Photos</h2>
+                    <h3 class="section-subheading text-muted">Posing nude is one of my favorite hobbies.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <img-item ng-repeat="item in imgItems" item="item"></img-item>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="my-videos" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">My videos</h2>
+                    <h3 class="section-subheading">Here you can find my video collection.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <video-item ng-repeat="item in imgItems" item="item"></video-item>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skype-show"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Skype shows</h1>
+                </div>
+            </div>
+            <div class="row skype-plans">
+                <div class="col-md-3">
+                    <div class="panel panel-skype-plan plan-basic">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Basic</h3>
+                            <h5>Some text about this plan</h5>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="plan-details">
+                                <li class="price">
+                                    <div class="value">20$</div>
+                                    <div class="title">One time session</div>
+                                </li>
+                                <li class="diration">
+                                    <div class="value">5 min</div>
+                                    <div class="title">Some info here</div>
+                                </li>
+                                <li class="diration">
+                                    <div class="value">Other</div>
+                                    <div class="title">Some other info here</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="panel-footer">
+                            <ngcart-addtocart id="skype_basic" name="Skype Basic" price="20" data="item">Buy</ngcart-addtocart>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-skype-plan plan-premium popular-plan">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Premium</h3>
+                            <h5>Some text about this plan</h5>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="plan-details">
+                                <li class="price">
+                                    <div class="value">50$</div>
+                                    <div class="title">One time session</div>
+                                </li>
+                                <li class="diration">
+                                    <div class="value">10 min</div>
+                                    <div class="title">Some info here</div>
+                                </li>
+                                <li class="diration">
+                                    <div class="value">Other</div>
+                                    <div class="title">Some other info here</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="panel-footer">
+                            <ngcart-addtocart id="skype_premium" name="Skype Premium" price="50" data="item">Buy</ngcart-addtocart>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-skype-plan plan-vip">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">VIP</h3>
+                            <h5>Some text about this plan</h5>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="plan-details">
+                                <li class="price">
+                                    <div class="value">80$</div>
+                                    <div class="title">One time session</div>
+                                </li>
+                                <li class="diration">
+                                    <div class="value">30 min</div>
+                                    <div class="title">Some info here</div>
+                                </li>
+                                <li class="diration">
+                                    <div class="value">Other</div>
+                                    <div class="title">Some other info here</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="panel-footer">
+                            <ngcart-addtocart id="skype_vip" name="Skype VIP" price="80" data="item">Buy</ngcart-addtocart>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-skype-plan plan-first-class">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">First Class</h3>
+                            <h5>Some text about this plan</h5>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="plan-details">
+                                <li class="price">
+                                    <div class="value">150$</div>
+                                    <div class="title">One time session</div>
+                                </li>
+                                <li class="diration">
+                                    <div class="value">60 min</div>
+                                    <div class="title">Some info here</div>
+                                </li>
+                                <li class="diration">
+                                    <div class="value">Other</div>
+                                    <div class="title">Some other info here</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="panel-footer">
+                            <ngcart-addtocart id="skype_first_class" name="Skype First Class" price="150" data="item">Buy</ngcart-addtocart>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skype Show Section -->
+    <section  class="bg-light-gray">
+        <div class="container"><!-- 
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Skype show</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="images/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Kay Garland</h4>
+                        <p class="text-muted">Lead Designer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="images/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Larry Parker</h4>
+                        <p class="text-muted">Lead Marketer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="images/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Diana Pertersen</h4>
+                        <p class="text-muted">Lead Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Clients Aside -->
+    <aside class="clients" id="spoil-me">
+        <div class="container">
+            <!-- <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="images/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="images/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="images/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="images/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div> -->
+        </div>
+    </aside>
+
+    <!-- Contact Section -->
+    <section id="message-me">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; SandyxSin.com 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <portfolio-modal item="modalItem"></portfolio-modal>
+</div>

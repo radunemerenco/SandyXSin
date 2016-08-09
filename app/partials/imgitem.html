@@ -1,0 +1,18 @@
+<div class="col-md-4 col-sm-6 portfolio-item" ng-show="item">
+    <div class="shadow1 border-radius-5">
+        <a href="#portfolio-modal" class="portfolio-link" data-toggle="modal" onclick="event.preventDefault();" ng-click="openModal()">
+            <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                </div>
+            </div>
+            <div class="img-responsive">
+              <img ng-src="{{ item.image }}" alt="{{ item.title }}">
+            </div>
+        </a>
+        <div class="portfolio-caption">
+            <h4>{{ item.name }}</h4>
+            <p class="text-muted">{{ item.caption }}</p>
+        </div>
+    </div>
+</div>
