@@ -3,6 +3,7 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 @import "font-awesome/scss/font-awesome.scss";
+@import "AngularJS-Toaster/toaster.scss";
 // endbower
 
 @import 'fonts';
@@ -895,6 +896,12 @@ body {
   -webkit-tap-highlight-color: $brand-primary;
 }
 
+
+
+.bg-white {
+  background-color: white;
+}
+
 .border-hearts {
   border: 20px solid pink;
   border-image-source: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/hearts-border-image.png);
@@ -1051,6 +1058,7 @@ body {
     line-height: 1;
     padding: 20px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.77);
+    font-family: Merveille,"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
   }
 }
 body {
@@ -1060,6 +1068,7 @@ body {
   background-position: 50%;
   position: relative;
   background-attachment: fixed;
+  min-height: 100vh;
 }
 body::before {
     content: " ";

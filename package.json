@@ -43,5 +43,11 @@
   },
   "scripts": {
     "test": "karma start test\\karma.conf.js"
-  }
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "nemerenco.com",
+  "license": "MIT",
 }
